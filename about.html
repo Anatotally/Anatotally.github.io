@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Toly Technology</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="tolytech.css">
+</head>
+<body>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<header>
+	<div class="header">
+		<h1><a href="index.html">Toly Technology</a></h1>
+		<p>+1 (317) 123-4567</p>
+	</div>
+</div> 
+</header>
+<nav>
+	<a href="about.html">About</a> &nbsp;
+	<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Shop↓</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="shop.html">Computers</a>
+    <a href="shop.html">Phones</a>
+    <a href="shop.html">Tablets</a>
+  </div>
+</div>
+	<a href="deals.html">Exclusive Deals</a> &nbsp;
+	<a href="support.html">Customer Support</a> &nbsp;
+	<a href="contact.html">Contact</a>	
+</nav>
+<main>
+	</div>
+	<h2>The Future is Now</h2>
+	<form action="sphider/search.php" method="get">	
+<input type="text" name="query" id="query" size="40" value=""> 
+<input type="submit" value="Search"> 
+<input type="hidden" name="search" value="1"> 
+</form> 
+<br>
+	<img src="download.jpg" alt="tech" class="center" width="600" height="300">
+	<p>Mauris eleifend fringilla lorem, a interdum nisl tempor sed. In sagittis eros eget urna porttitor, eget semper tortor blandit. Praesent faucibus lorem at tempor dignissim. Quisque accumsan lectus quis mi auctor, eget vehicula urna tristique. Pellentesque at elit tortor. Aliquam arcu ex, ultrices sit amet sodales a, bibendum vitae urna. Sed vel massa urna. Quisque lobortis tincidunt tellus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies id sem eget hendrerit. Ut quis maximus purus. Aliquam non semper enim. Vivamus placerat mi et dolor vestibulum, eget iaculis turpis rhoncus.</p>
+	<br>
+	<h3 id="History">History</h3>
+	<br>
+	<img src="what-are-the-implications-of-ever-increasing-globalization-through-technology-to-the-global-economy.jpg" alt="Tech in Hands" width="300" height="150" class="right" />
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum et lectus ac scelerisque. Donec urna odio, sodales a fringilla non, lobortis et magna. Praesent dapibus placerat enim, nec aliquet massa 
+	efficitur nec. In efficitur nisl dolor, sit amet dignissim libero suscipit quis. Donec lectus mauris, ultrices at ultricies eget, aliquam vitae mi. Nam lobortis tincidunt neque nec placerat. Suspendisse eu vulputate mauris. 
+	Sed euismod fermentum nisi eu lacinia. 
+	<br>Sed finibus magna in risus placerat ornare sit amet a nisi. Donec ultrices eros sed eros pharetra porta. Ut bibendum elit vel suscipit placerat. Aliquam ut porttitor neque. Vestibulum laoreet est at ligula ultrices, 
+	nec commodo eros bibendum. Suspendisse sit amet facilisis orci, et scelerisque urna. Donec semper aliquam mauris, a vestibulum nulla sollicitudin nec. Morbi porttitor purus at magna blandit, at suscipit mauris vestibulum. 
+	Cras eu tellus eget enim mattis sagittis. Donec facilisis sem id neque tempus, laoreet mattis enim porttitor. Nam imperdiet a dui vel semper. Pellentesque malesuada dolor imperdiet hendrerit rhoncus. Mauris imperdiet 
+	dolor a porta porttitor. Integer consectetur, dolor id euismod aliquam, justo nisl fringilla magna, id dignissim diam massa facilisis velit. Suspendisse varius, lorem in placerat consectetur, velit magna ultrices 
+	velit, ut sodales mauris lectus ac metus.</p>
+	<br><br>
+	<div id="contact"><p>Toly Technology<br>12345 Main Street<br>Indianapolis, IN 46202 <br><br>+1(317)123-4567</p></div>
+<footer>
+	Copyright &copy; 2018 Anatoly Morozov
+</footer>
+</main>
+</body>
+</html> 

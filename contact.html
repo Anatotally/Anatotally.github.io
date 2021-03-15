@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Toly Technology</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="tolytech.css">
+</head>
+<body>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<header>
+	<div class="header">
+		<h1><a href="index.html">Toly Technology</a></h1>
+		<p>+1 (317) 123-4567</p>
+	</div>
+</div> 
+</header>
+<nav>
+	<a href="about.html">About</a> &nbsp;
+	<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Shop↓</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="shop.html">Computers</a>
+    <a href="shop.html">Phones</a>
+    <a href="shop.html">Tablets</a>
+  </div>
+</div>
+	<a href="deals.html">Exclusive Deals</a> &nbsp;
+	<a href="support.html">Customer Support</a> &nbsp;
+	<a href="contact.html">Contact</a>	
+</nav>
+<main>
+	</div>
+	<h2>The Future is Now</h2>
+	<form action="sphider/search.php" method="get">	
+<input type="text" name="query" id="query" size="40" value=""> 
+<input type="submit" value="Search"> 
+<input type="hidden" name="search" value="1"> 
+</form> 
+<br>
+<img src="4252804_l-1-640x290.jpg" alt="Tech Background" class="center" width="800" height="400">
+	<br>
+	<h2 class="center">Reach out to us today!</h2>
+	<form method="post" action="http://webdevbasics.net/scripts/seniornet.php">
+		<label for="myFName">First Name:</label>
+		<input type="text" name="myFName" id="myFName" required="required">
+		<br><br><label for="myLName">Last Name:</label>
+		<input type="text" name="myLName" id="myLName" required="required">
+		<br><br><label for="myEmail">E-Mail:</label>
+		<input type="email" name="myEmail" id="myEmail" size="35" required="required">
+		<br><br><label for="myPhone">Phone:</label>
+		<input type="tel" name="myPhone" id="myPhone" maxlength="12">
+		<br><br><label for="myComments">Comments:</label>
+		<textarea name="myComments" id="myComments" cols="30" required="required"></textarea>
+		<br><br><input id="mySubmit" type="submit" value="Submit">
+	</form>
+	<br><br>
+	<hr>
+	<div id="contact"><p>Toly Technology<br>12345 Main Street<br>Indianapolis, IN 46202 <br><br>+1(317)123-4567</p></div>
+<footer>
+	Copyright &copy; 2018 Anatoly Morozov
+</footer>
+</main>
+</body>
+</html> 

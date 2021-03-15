@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Toly Technology</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="tolytech.css">
+</head>
+<body>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<header>
+	<div class="header">
+		<h1><a href="index.html">Toly Technology</a></h1>
+		<p>+1 (317) 123-4567</p>
+	</div>
+</div> 
+</header>
+<nav>
+	<a href="about.html">About</a> &nbsp;
+	<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Shop↓</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="shop.html">Computers</a>
+    <a href="shop.html">Phones</a>
+    <a href="shop.html">Tablets</a>
+  </div>
+</div>
+	<a href="deals.html">Exclusive Deals</a> &nbsp;
+	<a href="support.html">Customer Support</a> &nbsp;
+	<a href="contact.html">Contact</a>	
+</nav>
+<main>
+	</div>
+	<h2>The Future is Now</h2>
+	<form action="sphider/search.php" method="get">	
+<input type="text" name="query" id="query" size="40" value=""> 
+<input type="submit" value="Search"> 
+<input type="hidden" name="search" value="1"> 
+</form> 
+<br>
+<img src="CM20170313-34861-47040.jpg" alt="Tech Background" class="center" width="800" height="400">
+	<br>
+	<h2>Schedule</h2>
+	 <table>
+	 <tr>
+       <th>Deal Dates</th>
+       <th>Prodcuts</th>
+     </tr>
+     
+     <tr>
+       <td>8/10</td>
+       <td class="text">All Phones 35% Off!</td>
+     </tr>
+  <tr>
+    <td>8/26</td>
+    <td class="text">Hardware Components 50% Off!/td>
+            </tr>     
+  <tr>
+    <td>9/5</td>
+    <td class="text">All Laptops 25% Off!</td>
+	</tr>
+  </table>
+	<br><br>
+	<hr>
+	<div id="contact"><p>Toly Technology<br>12345 Main Street<br>Indianapolis, IN 46202 <br><br>+1(317)123-4567</p></div>
+<footer>
+	Copyright &copy; 2018 Anatoly Morozov
+</footer>
+</main>
+</body>
+</html> 
